@@ -38,15 +38,17 @@ div{
     width:60rem;
     max-width: 90%;
     display:flex;
-    flex-wrap:wrap;
-    /* justify-content:space-between; */
+    flex-direction:column;
     min-height:100vh;
     align-content:flex-start;
 }
 .main{
+    flex:1 1 0;
+    align-items:flex-start;
 }
 .site-header{
-    width:100%
+    width:100%;
+    padding:.5rem 0;
 }
 .portrait{
     padding:.5rem;
@@ -54,16 +56,6 @@ div{
 
 .nav li{
     display:inline-block;
-}
-.buffer{
-    /* height:50%; */
-}
-.footer{
-    display:flex;
-    height:65%;
-    align-items: flex-end;
-    /* justify-content: flex-end;
-    flex-direction:column; */
 }
 
 @media only screen and (min-width:700px){
