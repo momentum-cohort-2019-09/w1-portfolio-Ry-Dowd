@@ -6,11 +6,26 @@
 body{
     font-family:Arial, Helvetica, sans-serif;
 }
-@media only screen and (max-device-width:480px){
 
+.site-header{
+    display:flex;
+    flex-wrap:wrap;
 }
-@media only screen and (min-device-width:481px){
+.me{
+    width:100%
+}
 
+.nav li{
+    display:inline-block;
+}
+@media only screen and (min-width:600px){
+    .me{
+        width:20rem;
+        max-width:100%
+    }
+    .site-header{
+        justify-content: space-between;
+    }
 }
 .description{
     font-family:fantasy;
