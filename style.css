@@ -67,10 +67,24 @@ div{
 }
 .header{
     width:100%;
+    margin:1rem 0 2rem;
 }
 a{
     color: blue;
     text-decoration: none;
+}
+.preview{
+    width:75%;
+    margin:0 auto;
+    border-radius:4px;
+    border: 1px solid grey;
+}
+.title{
+    border-bottom: solid black 1px;
+    margin-bottom: 1rem;
+}
+.links{
+    margin-bottom:2rem;
 }
 
 @media only screen and (min-width:700px){
@@ -96,6 +110,17 @@ a{
         margin:.5rem 0;
         flex:1 1 0;
         padding:.5rem;
+    }
+    .site{
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction:row-reverse;
+    }
+    .preview{
+        width:55%;
+    }
+    .links{
+        align-self:flex-end;
     }
 }
 @media only screen and (min-width:1000px){
