@@ -98,6 +98,28 @@ i{
 .description{
     margin-bottom:2rem;
 }
+.intro{
+    margin-bottom:2rem;
+}
+.content{
+    width:100%
+}
+.section-head{
+    margin-bottom:1rem;
+}
+.reswrap{
+    margin-bottom:.5rem;
+}
+.resume-info{
+    margin-bottom:2rem;
+}
+.entity{
+    font-size:1.2rem;
+    font-weight:bold;
+}
+.dates{
+    font-style:italic;
+}
 
 @media only screen and (min-width:700px){
     .main{
@@ -145,6 +167,20 @@ i{
     p{
         font-size:1.25rem;
     }
+    .lvl2header{
+        display:flex;
+        justify-content:space-between;
+        margin-top:1rem;
+    }
+    .headright h4{
+        font-weight:1;
+        font-size:1rem;
+    }
+    .reswrap{
+        display:flex;
+        justify-content:space-between;
+    }
+
 }
 @media only screen and (min-width:1000px){
     .navwrap{
