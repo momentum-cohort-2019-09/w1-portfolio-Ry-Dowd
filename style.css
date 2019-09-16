@@ -180,6 +180,9 @@ i{
         display:flex;
         justify-content:space-between;
     }
+    .resume-info{
+        padding-right:4rem;
+    }
 
 }
 @media only screen and (min-width:1000px){
